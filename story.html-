@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+
+    <title>vertical - parallax</title>
+    <link rel="stylesheet" href="css/plugin/reset.css"/>
+    <link rel="stylesheet" href="css/plugin/common.css">
+    <link rel="stylesheet" href="css/main.css"/>
+    <script src="js/plugin/jquery-1.8.1.min.js"></script>
+    <script src="js/plugin/jquery.easing.1.3.min.js"></script>
+    <script src="js/plugin/prefixfree.min.js"></script>
+    <script src="js/plugin/respond.min.js"></script>
+    <script src="js/plugin/jquery.nicescroll.min.js"></script>
+    <script src="js/plugin/logic.js"></script>
+
+    <!--[if It IE 9] <script src="js/respond.min.js"></script> <[endif]-->
+</head>
+<body>
+
+<!--<div class="posNum"></div>-->
+
+
+<!----------  fix section  ---------->
+
+
+<header id="header">
+
+</header><!-- header end -->
+
+
+<div id="flag">
+    <div>Click</div>
+</div>
+
+<div class="menu">
+    <a href="#"></a>
+    <div class="hover"><img src="images/page03/menu_fill.png" alt=""></div>
+    <div><img src="images/page03/menu.png" alt=""></div>
+</div>
+
+
+<section id="menu">
+
+    <button class="close"><img src="images_menu/close_fill.png" alt=""></button>
+
+    <div class="home">
+        <a href="index.html"></a>
+        <div class="text"><img src="images_menu/home_red.png" alt=""></div>
+        <div class="af"><img src="images_menu/hover_home.jpg" alt=""></div>
+    </div>
+
+
+    <div class="story">
+        <a href="love.html"></a>
+        <div class="text"><img src="images_menu/story_red.png" alt=""></div>
+        <div class="af"><img src="images_menu/hover_story.jpg" alt=""></div>
+    </div>
+
+    <div class="lookbook">
+        <a href="about.html"></a>
+        <div class="text"><img src="images_menu/lookbook_red.png" alt=""></div>
+        <div class="af"><img src="images_menu/hover_lookbook.jpg" alt=""></div>
+    </div>
+
+    <div class="products">
+        <a href="category.html"></a>
+        <div class="text"><img src="images_menu/products_red.png" alt=""></div>
+        <div class="af"><img src="images_menu/hover_products.jpg" alt=""></div>
+    </div>
+
+</section>
+
+<!----------  fix section  end ---------->
+
+<article id="container" class="" data-barba="wrapper">
+
+    <div class="load-container">
+        <div class="loading-screen"></div>
+    </div>
+
+
+    <main data-barba="container" class="main" data-barba-namespace="story">
+        <section id="story">
+
+
+            <div class="blink">
+
+                <div class="video_container">
+                    <video autoplay muted loop poster>
+                        <source src="video02.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="title"><img src="images_sub02/pamela.png" alt=""></div>
+                <div class="menu">
+                    <a href="#"></a>
+                    <div class="hover"><img src="images_sub02/menu_fill.png" alt=""></div>
+                    <div><img src="images_sub02/menu.png" alt=""></div>
+                </div>
+
+                <div class="horizontal_txt">
+                    <div class="inner">
+                        <div><img src="images_sub02/horizontal.png" alt=""></div>
+                        <div><img src="images_sub02/horizontal.png" alt=""></div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <section class="horizontal">
+                <div class="pin-wrap" id="pinThis-0">
+                    <div class="animation-wrap" id="animationThis-0">
+                        <div class="item" id="sec01">
+                            <div class="bg_box">
+                                <div class="bg"></div>
+                                <div class="bg02"></div>
+                            </div>
+
+
+
+                            <div class="txt_container">
+                                <div class="stroke">
+                                    <div><img src="images_sub02/story_fill.png" alt=""></div>
+                                    <div><img src="images_sub02/story_stroke.png" alt=""></div>
+                                </div>
+                                <div><img src="images_sub02/read_more_our_story.png" alt=""></div>
+                                <div><img src="images_sub02/text01.png" alt=""></div>
+                            </div>
+
+                            <div class="story01"><img src="images_sub02/story01.jpg" alt=""></div>
+                            <div class="scroll_arrow"><img src="images_sub02/scroll_arrow.png" alt=""></div>
+
+
+                        </div>
+
+                        <div class="item" id="sec02">
+                            <div class="txt_container02">
+                                <div class="stroke02">
+                                    <div><img src="images_sub02/historic_beauty_fill.png" alt=""></div>
+                                    <div><img src="images_sub02/historic_beauty_stroke.png" alt=""></div>
+                                </div>
+                                <div><img src="images_sub02/historic_description.png" alt=""></div>
+                                <div><img src="images_sub02/historic_eng.png" alt=""></div>
+                                <div><img src="images_sub02/shop_now.png" alt=""></div>
+                            </div>
+                            <div class="vertical">
+                                <div class="inner">
+                                    <div><img src="images_sub02/vertical.png" alt=""></div>
+                                    <div><img src="images_sub02/vertical.png" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="story02"><img src="images_sub02/story03.jpg" alt=""></div>
+                            <div class="scroll_arrow02"><img src="images_sub02/scroll_arrow02.png" alt=""></div>
+                        </div>
+
+                        <div class="item" id="sec03">
+                            <div class="txt_container03">
+                                <div class="stroke03">
+                                    <div><img src="images_sub02/perfect_symmetry_fill.png" alt=""></div>
+                                    <div><img src="images_sub02/perfect_symmetry_stroke.png" alt=""></div>
+                                </div>
+                                <div><img src="images_sub02/perfect_description.png" alt=""></div>
+                                <div><img src="images_sub02/perfect_eng.png" alt=""></div>
+                                <div><img src="images_sub02/shop_now02.png" alt=""></div>
+                            </div>
+                            <div class="vertical">
+                                <div class="inner">
+                                    <div><img src="images_sub02/vertical.png" alt=""></div>
+                                    <div><img src="images_sub02/vertical.png" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="img_container enter_cursor">
+                                <div><a href="category.html"><img src="images_sub02/series01.jpg" alt=""></a></div>
+                                <div><a href="category.html"><img src="images_sub02/series02.jpg" alt=""></a></div>
+                                <div><a href="category.html"><img src="images_sub02/series03.jpg" alt=""></a></div>
+                                <div><a href="category.html"><img src="images_sub02/series04.jpg" alt=""></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+        </section><!-- scene01 end -->
+    </main><!-- wrap end -->
+
+
+</article><!-- scrollBox end -->
+
+
+
+<!----------  pop section  ---------->
+
+<div class="pop">
+
+</div><!--pop end-->
+
+
+<script>
+
+</script>
+<!----------  pop section  end  ---------->
+<script src="https://unpkg.com/@barba/core"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+<script src="js/plugin/scrollTrigger.js"></script>
+<script src="js/plugin/scrollbar.js"></script>
+<script src="js/plugin/spa.js"></script>
+<script src="js/main.js"></script>
+
+
+</body>
+</html>

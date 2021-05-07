@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+
+    <title>vertical - parallax</title>
+    <link rel="stylesheet" href="css/plugin/reset.css"/>
+    <link rel="stylesheet" href="css/plugin/common.css">
+    <link rel="stylesheet" href="css/main.css"/>
+    <script src="js/plugin/jquery-1.8.1.min.js"></script>
+    <script src="js/plugin/jquery.easing.1.3.min.js"></script>
+    <script src="js/plugin/prefixfree.min.js"></script>
+    <script src="js/plugin/respond.min.js"></script>
+    <script src="js/plugin/jquery.nicescroll.min.js"></script>
+    <script src="js/plugin/logic.js"></script>
+
+
+
+
+    <!--[if It IE 9] <script src="js/respond.min.js"></script> <[endif]-->
+</head>
+<body>
+
+<!--<div class="posNum"></div>-->
+
+
+<!----------  fix section  ---------->
+
+
+
+<header id="header">
+
+</header><!-- header end -->
+
+
+<div id="flag">
+    <div>Click</div>
+</div>
+
+
+<div class="menu">
+    <a href="#"></a>
+    <div class="hover"><img src="images/page03/menu_fill.png" alt=""></div>
+    <div><img src="images/page03/menu.png" alt=""></div>
+</div>
+
+<section id="menu">
+
+    <button class="close"><img src="images_menu/close_fill.png" alt=""></button>
+
+    <div class="home">
+        <a href="index.html"></a>
+        <div class="text"><img src="images_menu/home_red.png" alt=""></div>
+        <div class="af"><img src="images_menu/hover_home.jpg" alt=""></div>
+    </div>
+
+
+    <div class="story">
+        <a href="love.html"></a>
+        <div class="text"><img src="images_menu/story_red.png" alt=""></div>
+        <div class="af"><img src="images_menu/hover_story.jpg" alt=""></div>
+    </div>
+
+    <div class="lookbook">
+        <a href="about.html"></a>
+        <div class="text"><img src="images_menu/lookbook_red.png" alt=""></div>
+        <div class="af"><img src="images_menu/hover_lookbook.jpg" alt=""></div>
+    </div>
+
+    <div class="products">
+        <a href="category.html"></a>
+        <div class="text"><img src="images_menu/products_red.png" alt=""></div>
+        <div class="af"><img src="images_menu/hover_products.jpg" alt=""></div>
+    </div>
+
+</section><!-- scene01 end -->
+
+
+<!----------  fix section  end ---------->
+
+<article id="container" class="" data-barba="wrapper">
+
+    <div class="load-container">
+        <div class="loading-screen">
+            <video autoplay muted loop>
+                <source src="noise.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+
+    <main data-barba="container" class="main" data-barba-namespace="about">
+
+        <div class="right_label">
+            <div class="text_vertical">
+                <div class="inner">
+                    <div><img src="images_page03/text_vertical.png" alt=""></div>
+                    <div><img src="images_page03/text_vertical.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+
+        <section id="about">
+
+            <section id="section03">
+                <div class="main_image02"><img src="images/page03/page3_image_02.jpg" alt=""></div>
+
+            </section>
+
+            <section id="section04">
+<!--                <div class="text_video"><img src="images_page03/text_video.png" alt=""></div>-->
+                <div class="video01">
+<!--                    <img src="images_page03/video.png" alt="">-->
+                    <video poster="images_page03/video.jpg" id="about_video">
+                        <source src="video01.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="playbutton enter_cursor"><img src="images/page03/playbutton.png" alt=""></div>
+            </section>
+
+            <section id="section05">
+                <ul class="inner">
+                    <li><img src="images_page03/horizontal01.jpg" alt=""></li>
+                    <li><img src="images_page03/horizontal02.jpg" alt=""></li>
+                    <li><img src="images_page03/horizontal03.jpg" alt=""></li>
+                    <li><img src="images_page03/horizontal04.jpg" alt=""></li>
+                    <li><img src="images_page03/horizontal05.jpg" alt=""></li>
+                    <li><img src="images_page03/horizontal01.jpg" alt=""></li>
+                    <li><img src="images_page03/horizontal02.jpg" alt=""></li>
+                    <li><img src="images_page03/horizontal03.jpg" alt=""></li>
+                    <li><img src="images_page03/horizontal04.jpg" alt=""></li>
+                    <li><img src="images_page03/horizontal05.jpg" alt=""></li>
+                </ul>
+            </section>
+
+            <section id="section06">
+                <ul>
+                    <li class="editorial01"><img src="images_page03/editorial01.jpg" alt=""></li>
+                    <li class="editorial02"><img src="images_page03/editorial02.jpg" alt=""></li>
+                    <li class="editorial03"><img src="images_page03/editorial03.jpg" alt=""></li>
+                    <li class="editorial05"><img src="images_page03/editorial05.jpg" alt=""></li>
+                    <li class="editorial04"><img src="images_page03/editorial04.jpg" alt=""></li>
+                    <li class="editorial06"><img src="images_page03/editorial06.jpg" alt=""></li>
+                    <li class="editorial07"><img src="images_page03/editorial07.jpg" alt=""></li>
+                    <li class="text_editorial"><img src="images_page03/text_editorial.png" alt=""></li>
+
+                </ul>
+            </section>
+
+            <section id="section07">
+                <div class="text_premium_collection"><img src="images_page03/text_premium_collection.png" alt=""></div>
+                <div class="text_container">
+                    <div class="text01_premium_collection"><img src="images_page03/text01_premium_collection.png" alt=""></div>
+                    <div class="text02_premium_collection"><img src="images_page03/text02_premium_collection.png" alt=""></div>
+                </div>
+
+            </section>
+
+            <section id="section08">
+                <div class="text_container02">
+                    <div class="text03_premium_collection"><img src="images_page03/text03_premium_collection.png" alt=""></div>
+                    <div class="text_sacred_profane"><img src="images_page03/text_sacred_profane.png" alt=""></div>
+                </div>
+                <div class="sacred_profane"><img src="images_page03/sacred_profane.jpg" alt=""></div>
+            </section>
+
+            <section id="section09">
+                <div class="container01">
+                   <div class="editorial08"><img src="images_page03/editorial08.jpg" alt=""></div>
+                   <div class="editorial09"><img src="images_page03/editorial09.jpg" alt=""></div>
+                   <div class="text01_sacred_profane"><img src="images_page03/text01_sacred_profane.png" alt=""></div>
+                   <div class="shop_button_black">
+                       <a href="https://www.pamelacardjewelry.com/shop"></a>
+                       <div class="shop_button_black_fill"><img src="images_page03/shop_button_black_fill.png" alt=""></div>
+                       <div><img src="images_page03/shop_button_black_stroke.png" alt=""></div>
+                   </div>
+
+<!--                    <li class="text_nexttoshop"><img src="images_page03/text_nexttoshop.png" alt=""></li>-->
+                </div>
+                <div class="container02">
+                    <div class="editorial10"><img src="images_page03/editorial10.jpg" alt=""></div>
+                    <div class="editorial11"><img src="images_page03/editorial11.jpg" alt=""></div>
+                    <div class="text02_sacred_profane"><img src="images_page03/text02_sacred_profane.png" alt=""></div>
+                    <div class="text03_sacred_profane"><img src="images_page03/text03_sacred_profane_pamela.png" alt=""></div>
+                    <div class="shop_button_white">
+                        <a href="https://www.pamelacardjewelry.com/necklaces-2"></a>
+                        <div class="shop_button_white_fill"><img src="images_page03/shop_button_white_fill.png" alt=""></div>
+                        <div><img src="images_page03/shop_button_white_stroke.png" alt=""></div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="section10">
+                <ul class="container03">
+                    <li class="dimed"><img src="images_page03/dimed_handmade.png" alt=""></li>
+                    <li class="text_handmade"><img src="images_page03/text_handmade_in_Vancouver.png" alt=""></li>
+                    <li class="text_handmade_description"><img src="images_page03/text_handmade_description.png" alt=""></li>
+                    <li class="fall"><img src="images_page03/21fall_winter.png" alt=""></li>
+                    <li class="gold_pamela"><img src="images_page03/text_gold_pamela.png" alt=""></li>
+                </ul>
+                <div class="circle"><img src="images_page03/text_circle.png" alt=""></div>
+            </section>
+
+            <section id="section11">
+                <ul class="image_container01">
+                    <li class="film01"><img src="images_page03/filmtique01.jpg" alt=""></li>
+                    <li class="film02"><img src="images_page03/filmtique02.jpg" alt=""></li>
+                    <li class="film03"><img src="images_page03/filmtique03.jpg" alt=""></li>
+                </ul>
+                <div class="film_big"><img src="images_page03/filmtique_big.jpg" alt=""></div>
+            </section>
+
+            <section id="section12">
+                <ul class="image_container02">
+                    <li class="film04"><img src="images_page03/filmtique04.jpg" alt=""></li>
+                    <li class="film05"><img src="images_page03/filmtique05.jpg" alt=""></li>
+                    <li class="film06"><img src="images_page03/filmtique06.jpg" alt=""></li>
+                    <li class="film07"><img src="images_page03/filmtique07.jpg" alt=""></li>
+                </ul>
+            </section>
+
+            <section id="section13">
+                <div class="arrow enter_cursor">
+                    <a href="love.html"></a>
+                    <div class="fill"><img src="images_page03/arrow_fill.png" alt=""></div>
+                    <div><img src="images_page03/arrow_stroke.png" alt=""></div>
+                </div>
+            </section>
+
+        </section><!-- scene01 end -->
+    </main><!-- wrap end -->
+
+
+
+</article><!-- scrollBox end -->
+
+
+
+<!----------  pop section  ---------->
+
+<div class="pop">
+
+</div><!--pop end-->
+
+
+
+<!----------  pop section  end  ---------->
+<script src="https://unpkg.com/@barba/core"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+<script src="js/plugin/scrollTrigger.js"></script>
+<script src="js/plugin/scrollbar.js"></script>
+<script src="js/plugin/spa.js"></script>
+<script src="js/main.js"></script>
+
+
+</body>
+</html>
